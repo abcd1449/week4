@@ -1,0 +1,68 @@
+@-webkit-keyframes hyun { 
+
+	0% { 
+		transform:rotate(0deg);
+
+ 	}
+
+
+ 	100% { 
+ 		transform:rotate(360deg);
+
+ 	 }
+
+}
+
+
+
+.box { 
+	width: 100px;
+ 	height: 100px;
+ 	background-color: blue;
+ 	
+ 	transition-property: all;
+ 	transition-duration: 1s;
+ 	float:left;
+ 	transform:scale(1, 1);
+ 	animation:opacityToZero;
+ 	animation-duration: 2s;	
+ 	animation-fill-mode: forwards;
+ 	animation-play-state: paused;} 
+ 	
+
+
+.box:hover { 
+	transform:rotate(180deg);
+	transform:scale(0, 0);
+	animation-play-state: running;
+
+
+
+ }
+
+
+
+
+@keyframes opacityToZero { 
+
+	0% { 
+		opacity: 1
+
+ }
+
+
+	100% { 
+		opacity: 0
+
+ }
+ }
+
+
+@-webkit-keyframes hyun { 
+
+0% { 
+
+
+ }
+
+ }
